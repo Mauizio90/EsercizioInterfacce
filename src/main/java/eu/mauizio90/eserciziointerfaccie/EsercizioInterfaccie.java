@@ -8,6 +8,10 @@ package eu.mauizio90.eserciziointerfaccie;
 public class EsercizioInterfaccie {
 
     public static void main(String[] args) {
+        
+        Bank creditoCooperativo = new Bank("Credito Cooperativo");
+        
+        
         Bank bnl = new Bank("BNL");
         Company mastropasquaEnterprises = new Company();
         
